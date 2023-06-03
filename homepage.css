@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+}
+
+/*CSS for the menu section*/
+
+header{
+    background-color: rgb(23, 22, 22);
+    padding-bottom: 4px;
+    padding-top: 8px;
+    box-shadow: 0px 0px 10px 5px rgb(54, 50, 50);
+}
+
+.menu{
+    font-size: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+    transition: opacity 0.125;
+}
+
+.menu div a{
+    text-decoration: none;
+    color: rgb(124, 196, 124);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu div:hover{
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+.menu div:active{
+    opacity: 0.25;
+}
+
+.profile-pic, .menu, .menu div{
+    display: inline-block;
+}
+
+.profile-pic{
+    width: 46px;
+    margin-right: 5px;
+    margin-left: 10px;
+    opacity: 0.60;
+}
+
+.profile-photo{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* This is all the CSS for homepage*/
+.homepage-body{
+    background-image: url('pictures/dramatic-image.jpg');
+    background-color: rgba(23, 22, 22, 0.801);
+    background-blend-mode: overlay;
+}
+
+.watch-prompt, .homepage-heading, .quote{
+    text-align: center;
+}
+
+.homepage-content{
+    margin-top: 200px;
+}
+
+.homepage-heading{
+    color: whitesmoke;
+    font-size: 75px;
+    font-family: Lobster;
+    text-shadow: 0px 0px 20px ghostwhite;
+}
+
+.quote{
+    color: whitesmoke;
+    margin-bottom: 80px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.watch-prompt{
+    color: rgb(124, 196, 124);
+    transition: opacity 0.125s;
+}
+
+.watch-prompt:hover{
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+.watch-prompt:active{
+    opacity: 0.25;
+}
+
+
+
+
+/* CSS for the about section */
+
+
+.about-us-body{
+    background-color: rgb(23, 22, 22);
+}
+
+.about-us-title{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 75px;
+    font-family: Lobster;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(pictures/Nature-Dramatic-Backgrounds-HD.jpg);
+    background-color: rgba(23, 22, 22, 0.50);
+    background-blend-mode: overlay;
+    box-shadow: 0px 5px 15px 0px rgb(66, 38, 38);
+}
+
+.about-us-story{
+    color: whitesmoke;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about-us-story div{
+    display: inline-block;
+}
+
+.about-us-content{
+    vertical-align: middle;
+}
+
+.about-us-content div{
+   display: block;
+   line-height: 30px;
+}
+
+.about-us-content h1{
+    border: 0px;
+    border-bottom: 4px;
+    border-style: ridge;
+    border-color: rgb(117, 115, 115);
+    margin-bottom: 25px;
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.about-us-content p{
+    width: 500px;
+}
+
+.about-us-heading{
+    margin-bottom: 30px;
+}
+
+.about-us-story img{
+    width: 400px;
+    object-fit: contain;
+    margin-left: 210px;
+    margin-right: 150px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/*Individual Stories CSS*/
+.arvis-story{
+    background-color: rgb(33, 33, 33);
+}
+
+.arvis-story div{
+    display: inline-block;
+}
+
+.arvis-story-text{
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: 100px;
+    padding-left: 100px;
+    margin-right: 100px;
+    padding-right: 100px;
+    vertical-align: middle;
+    
+}
+
+.arvis-story-text h1{
+    margin-bottom: 30px;
+}
+
+.arvis-story p{
+    width: 400px;
+    line-height: 20px;
+}
+
+.endquote{
+    font-size: 24px;
+    font-family: Lobster;
+    text-align: right;
+}
+
+.arvis-story img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+}
+
+/*CSS for Ian's story*/
+.ians-story{
+    background: rgb(33, 33, 33);
+    padding-bottom: 100px;
+}
+
+.ians-story div{
+    display: inline-block;
+}
+
+.ians-story-text{
+    color: whitesmoke;
+    text-align-last: right;
+    text-align: justify;
+    margin-left: 200px;
+    vertical-align: middle;
+}
+
+.ians-story-text p{
+    margin-top: 20px;
+    width: 400px;
+    line-height: 20px;
+}
+
+.ians-story img{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    object-fit: cover;
+    object-position: top;
+    vertical-align: middle;
+    border-radius: 50%;
+}
