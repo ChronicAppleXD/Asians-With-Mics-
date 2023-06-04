@@ -101,12 +101,17 @@ header{
 /* CSS for the about section */
 
 
-.about-us-body{
+body{
     background-color: rgb(23, 22, 22);
+    color: whitesmoke;
+}
+
+.about-us-story{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .about-us-title{
-    color: whitesmoke;
     text-align: center;
     font-size: 75px;
     font-family: Lobster;
@@ -119,12 +124,6 @@ header{
     box-shadow: 0px 5px 15px 0px rgb(66, 38, 38);
 }
 
-.about-us-story{
-    color: whitesmoke;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
 .about-us-story div{
     display: inline-block;
 }
@@ -133,12 +132,7 @@ header{
     vertical-align: middle;
 }
 
-.about-us-content div{
-   display: block;
-   line-height: 30px;
-}
-
-.about-us-content h1{
+.about-us-story h1{
     border: 0px;
     border-bottom: 4px;
     border-style: ridge;
@@ -149,7 +143,7 @@ header{
     padding-bottom: 10px;
 }
 
-.about-us-content p{
+.about-us-story p{
     width: 500px;
 }
 
@@ -167,32 +161,33 @@ header{
 }
 
 /*Individual Stories CSS*/
-.arvis-story{
+.arvis-story, .ians-story{
     background-color: rgb(33, 33, 33);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: whitesmoke;
 }
 
 .arvis-story div{
     display: inline-block;
+    vertical-align: middle;
 }
 
-.arvis-story-text{
-    color: whitesmoke;
+.arvis-story h1, .arvis-story p{
     text-align: justify;
     margin-left: 100px;
     padding-left: 100px;
     margin-right: 100px;
     padding-right: 100px;
-    vertical-align: middle;
-    
 }
 
-.arvis-story-text h1{
-    margin-bottom: 30px;
+.arvis-story h1{
+    margin-bottom: 25px;
 }
 
-.arvis-story p{
+.arvis-story p, .ians-story p{
     width: 400px;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .endquote{
@@ -201,47 +196,30 @@ header{
     text-align: right;
 }
 
-.arvis-story img{
+.arvis-story img, .ians-story img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     object-position: top;
-    vertical-align: middle;
-    margin-top: 100px;
-    margin-bottom: 100px;
     border-radius: 50%;
-}
-
-/*CSS for Ian's story*/
-.ians-story{
-    background: rgb(33, 33, 33);
-    padding-bottom: 100px;
 }
 
 .ians-story div{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .ians-story-text{
-    color: whitesmoke;
     text-align-last: right;
     text-align: justify;
     margin-left: 200px;
-    vertical-align: middle;
 }
 
-.ians-story-text p{
+.ians-story p{
     margin-top: 20px;
-    width: 400px;
-    line-height: 20px;
+    margin-left: 50px;
 }
 
 .ians-story img{
-    height: 400px;
-    width: 400px;
     margin-left: 200px;
-    object-fit: cover;
-    object-position: top;
-    vertical-align: middle;
-    border-radius: 50%;
 }
